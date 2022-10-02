@@ -1,0 +1,38 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "config",
+    "docs/storybook",
+    "packages/*"
+  ],
+  "scripts": {
+    "graph": "turbo run build --graph",
+    "clean": "turbo clean && rm -rf node_modules",
+    "playground": "turbo run playground --filter=@starter/storybook",
+    "storybook": "turbo run dev --filter=@starter/storybook",
+    "build": "turbo run build --filter=!@starter/storybook",
+    "build:core": "turbo run build --filter=@starter/core",
+    "#build:advanced": "turbo run build --filter=@starter/advanced",
+    "build:hooks": "turbo run build --filter=@starter/hooks",
+    "build:icons": "turbo run build --filter=@starter/icons",
+    "build:storybook": "turbo run build --filter=@starter/storybook",
+    "lint": "turbo run lint",
+    "fix": "turbo run fix",
+    "lint:core": "turbo run lint --filter=@starter/core",
+    "lint:hooks": "turbo run lint --filter=@starter/hooks",
+    "lint:icons": "turbo run lint --filter=@starter/icons",
+    "pretty": "turbo run pretty"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccreusat/starter-monorepo-turborepo-vite.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "turbo": "^1.4.6"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.24.4"
+  }
+}
