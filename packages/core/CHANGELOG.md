@@ -1,5 +1,11 @@
 # @starter/core
 
+## 0.3.0
+
+### Minor Changes
+
+- adding changelog-github
+
 ## 0.2.0
 
 ### Minor Changes
