@@ -1,5 +1,11 @@
 # @starter/core
 
+## 0.4.0
+
+### Minor Changes
+
+- add new component accordion to core lib
+
 ## 0.3.2
 
 ### Patch Changes
