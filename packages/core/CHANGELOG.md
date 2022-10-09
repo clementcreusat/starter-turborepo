@@ -1,5 +1,11 @@
 # @starter/core
 
+## 0.6.1
+
+### Patch Changes
+
+- [`1477f52`](https://github.com/ccreusat/starter-monorepo-turborepo-vite/commit/1477f522fb0bf3d9a5966d8ea8fe7dd476567486) Thanks [@clementcreusat](https://github.com/clementcreusat)! - Add Accordion component
+
 ## 0.6.0
 
 ### Minor Changes
