@@ -1,5 +1,11 @@
 # @starter/config
 
+## 0.1.2
+
+### Patch Changes
+
+- patch core and icons packages, patch shared config
+
 ## 0.1.1
 
 ### Patch Changes
