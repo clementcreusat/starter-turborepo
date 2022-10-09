@@ -24,7 +24,7 @@
     "lint:icons": "turbo run lint --filter=@starter/icons",
     "format": "turbo run format",
     "prepare": "husky install",
-    "pre-commit": "lint-staged"
+    "pre-commit": "lint-staged && yarn changeset"
   },
   "husky": {
     "hooks": {
@@ -34,8 +34,7 @@
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": [
       "yarn lint",
-      "yarn format",
-      "yarn changeset"
+      "yarn format"
     ],
     "*.json": [
       "prettier --write"
