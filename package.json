@@ -32,6 +32,10 @@
     }
   },
   "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": [
+      "yarn lint",
+      "yarn format"
+    ],
     "*.json": [
       "prettier --write"
     ]
