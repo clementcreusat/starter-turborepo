@@ -1,5 +1,11 @@
 # @starter/core
 
+## 0.7.2
+
+### Patch Changes
+
+- [`eb67b15`](https://github.com/ccreusat/starter-monorepo-turborepo-vite/commit/eb67b15af5669ded608f641c279954b21c61e737) Thanks [@ccreusat](https://github.com/ccreusat)! - add new components
+
 ## 0.7.1
 
 ### Patch Changes
