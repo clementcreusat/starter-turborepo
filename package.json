@@ -32,9 +32,8 @@
     }
   },
   "lint-staged": {
-    "**/*.{js,jsx,ts,tsx}": [
-      "yarn fix",
-      "yarn changeset"
+    "*.json": [
+      "prettier --write"
     ]
   },
   "repository": {

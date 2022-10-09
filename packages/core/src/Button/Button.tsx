@@ -10,7 +10,7 @@ export const Button = ({
   label,
   ...props
 }: ButtonProps) => {
-  const mode = primary ? "btn-primary" : "btn-secondary";
+  const mode = primary ? "btn-primary" : "btn-link";
   return (
     <button
       type="button"
