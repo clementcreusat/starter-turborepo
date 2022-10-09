@@ -1,5 +1,11 @@
 # @starter/core
 
+## 0.6.2
+
+### Patch Changes
+
+- [`9d374c8`](https://github.com/ccreusat/starter-monorepo-turborepo-vite/commit/9d374c84a2680ec3a7dff2a8e87a403ffa6d7626) Thanks [@ccreusat](https://github.com/ccreusat)! - update storybook, fix core component
+
 ## 0.6.1
 
 ### Patch Changes
