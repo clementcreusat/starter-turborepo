@@ -22,7 +22,20 @@
     "lint:core": "turbo run lint --filter=@starter/core",
     "lint:hooks": "turbo run lint --filter=@starter/hooks",
     "lint:icons": "turbo run lint --filter=@starter/icons",
-    "format": "turbo run format"
+    "format": "turbo run format",
+    "prepare": "husky install",
+    "pre-commit": "lint-staged"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": [
+      "yarn format:write",
+      "yarn lint:fix"
+    ]
   },
   "repository": {
     "type": "git",
@@ -30,6 +43,8 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
     "turbo": "^1.4.6"
   },
   "dependencies": {
