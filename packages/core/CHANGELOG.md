@@ -1,5 +1,11 @@
 # @starter/core
 
+## 0.7.0
+
+### Minor Changes
+
+- [`fe55bb1`](https://github.com/ccreusat/starter-monorepo-turborepo-vite/commit/fe55bb1938e4fa6b92f48522781e5db6ad00ed0c) Thanks [@clementcreusat](https://github.com/clementcreusat)! - add new component : combobox
+
 ## 0.6.2
 
 ### Patch Changes
