@@ -27,7 +27,7 @@
   ],
   "scripts": {
     "build": "yarn icons && vite build --config ../../config/vite/vite.config.ts",
-    "icons": "npx @svgr/cli assets --config-file ./svgr.config.js",
+    "icons": "npx @svgr/cli assets --config-file ./svgr.config.cjs",
     "lint": "eslint -c ../../config/eslint/icons.json .",
     "lint:fix": "eslint -c ../../config/eslint/icons.json --fix .",
     "pretty": "yarn pretty:write && yarn pretty:check",
