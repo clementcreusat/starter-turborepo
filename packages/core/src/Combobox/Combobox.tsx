@@ -1,4 +1,4 @@
-import { ButtonProps } from "./ButtonProps";
+import { ButtonProps } from "./ComboboxProps";
 
 /**
  * Primary UI component for user interaction

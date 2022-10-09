@@ -1,4 +1,4 @@
-import { ButtonProps } from "./ButtonProps";
+import { ButtonProps } from "./AccordionProps";
 
 /**
  * Primary UI component for user interaction
