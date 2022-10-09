@@ -22,7 +22,7 @@
     "lint:core": "turbo run lint --filter=@starter/core",
     "lint:hooks": "turbo run lint --filter=@starter/hooks",
     "lint:icons": "turbo run lint --filter=@starter/icons",
-    "pretty": "turbo run pretty"
+    "format": "turbo run format"
   },
   "repository": {
     "type": "git",
