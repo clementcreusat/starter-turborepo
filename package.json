@@ -24,7 +24,7 @@
     "lint:icons": "turbo run lint --filter=@starter/icons",
     "format": "turbo run format",
     "prepare": "husky install",
-    "pre-commit": "lint-staged && yarn changeset"
+    "pre-commit": "yarn changeset"
   },
   "husky": {
     "hooks": {
