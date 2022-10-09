@@ -33,6 +33,8 @@
     "turbo": "^1.4.6"
   },
   "dependencies": {
+    "@changesets/changelog-git": "^0.1.13",
+    "@changesets/changelog-github": "^0.4.7",
     "@changesets/cli": "^2.24.4"
   }
 }
