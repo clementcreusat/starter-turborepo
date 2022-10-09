@@ -1,5 +1,11 @@
 # @starter/core
 
+## 0.6.0
+
+### Minor Changes
+
+- [`31dd1e4`](https://github.com/ccreusat/starter-monorepo-turborepo-vite/commit/31dd1e4011eec75e9bfcbc4e9fa41c3cde9b1090) Thanks [@ccreusat](https://github.com/ccreusat)! - remove 2 components from core package
+
 ## 0.5.0
 
 ### Minor Changes
