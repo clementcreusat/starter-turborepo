@@ -1,5 +1,11 @@
 # @starter/core
 
+## 0.8.0
+
+### Minor Changes
+
+- [`a1ac783`](https://github.com/ccreusat/starter-monorepo-turborepo-vite/commit/a1ac78345c706b2abaa7449607a8eee760cb4820) Thanks [@ccreusat](https://github.com/ccreusat)! - add new component: Test component in core lib
+
 ## 0.7.2
 
 ### Patch Changes
